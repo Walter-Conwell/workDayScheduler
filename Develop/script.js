@@ -2,7 +2,7 @@ $(document).ready(function () {
   let dayInfo = dayjs();
   $("#currentDay").text(dayInfo.format(" Z ddd MMM"));
   console.log("#currentDay");
-  // add rowTimes
+  
   var hrSlot = $(".rowTime");
   var textSlot = $(".time-block");
   var timeSlot = dayjs().hour();
