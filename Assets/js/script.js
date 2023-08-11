@@ -20,15 +20,15 @@ $(document).ready(function () {
       timeBlock.addClass("future");
     }
   });
-
+  // saving user input to local storage.
   var userData = $(".saveBtn");
   userData.on("click", function () {
-    const textDisplay = this.parentElement.id;
+    let textDisplay = this.parentElement.id;
     let userInput = this.previousElementSibling.value;
     window.localStorage.setItem(textDisplay, userInput);
     console.log("userInput saved");
   });
-
+  // rendering the saved user input into the text area.
   function dataRenderer() {
     for (var i = 0; i < textSlot.length; i++) {
       var textarea = $(textSlot[i]);
