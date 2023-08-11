@@ -31,5 +31,5 @@ Jacob Carver
 
 ## Questions
 
-www.github.com/Walter-Conwell
-walterdanteconwelljr@gmail.com
+- github: www.github.com/Walter-Conwell
+- email: walterdanteconwelljr@gmail.com
